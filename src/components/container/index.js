@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { css } from "@emotion/react";
 
 const Container = ({
+  className,
   inline,
   direction,
   shrink,
@@ -107,7 +108,9 @@ const Container = ({
   `;
   return (
     <div>
-      <div css={containerStyles}>{children}</div>
+      <div className={className} css={containerStyles}>
+        {children}
+      </div>
     </div>
   );
 };

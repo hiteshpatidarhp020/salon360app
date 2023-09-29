@@ -1,9 +1,8 @@
-import IcPlus from "../../design-system/icons/IcPlus";
 import { Icon } from "../icon/icon";
 import style from "./button.module.css";
 import PropTypes from "prop-types";
 
-const Button = ({ size, btnIcon, label }) => {
+const Button = ({ size, icon, label }) => {
   let width;
   let fontSize;
   if (size === "large") {
@@ -25,8 +24,7 @@ const Button = ({ size, btnIcon, label }) => {
   return (
     <div className={style.btnbox} style={btnboxStyle}>
       <label>{label}</label>
-      <img src={btnIcon} />
-      <Icon ic={<IcPlus />} />
+      <Icon ic={icon} />
     </div>
   );
 };

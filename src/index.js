@@ -6,15 +6,16 @@ import reportWebVitals from "./reportWebVitals";
 
 import Container from "./components/container";
 import Button from "./components/Button";
+import { Icon } from "./components/icon/icon";
+import IcServices from "./design-system/icons/IcServices";
+import IcPlus from "./design-system/icons/IcPlus";
+import styel from "./components/Button/button.module.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Container padding="0  50px 50px 50px">
-      {/*<App />*/}
-
-      <Button btnIcon="/img/plus.svg" size="large" label="New Sale" />
-    </Container>
+    {/*<App />*/}
+    <Container padding="0  50px 50px 50px"></Container>
   </React.StrictMode>
 );
 
