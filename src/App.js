@@ -42,8 +42,6 @@ const App = () => {
           </div>
         </div>
       </div>
-      <Button size="medium" icon={<IcPlus />} label="Know more"></Button>
-      <Button size="large" label="Get in touch with us"></Button>
     </div>
   );
 };
