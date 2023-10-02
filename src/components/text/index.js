@@ -82,9 +82,9 @@ const StyledText = styled.div`
   color: ${(props) => props.color || "inherit"};
 `;
 
-const Text = ({ text, appearance, color }) => {
+const Text = ({ text, appearance, color, className }) => {
   return (
-    <StyledText appearance={appearance} color={color}>
+    <StyledText className={className} appearance={appearance} color={color}>
       {text}
     </StyledText>
   );

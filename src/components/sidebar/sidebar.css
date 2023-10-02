@@ -1,0 +1,15 @@
+/* MyComponent.css */
+.col1 {
+  /* background-color: red; */
+  /* width: 290px; */
+}
+
+.col2 {
+  /* width: 100%; */
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}

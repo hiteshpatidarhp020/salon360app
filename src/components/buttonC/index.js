@@ -2,7 +2,16 @@ import { Icon } from "../icon/icon";
 import style from "./button.module.css";
 import PropTypes from "prop-types";
 
-const Button = ({ size, icon, label }) => {
+const ButtonComponent = ({
+  size,
+  paddingLeft,
+  gap,
+  justifyContent,
+  prefix,
+  suffix,
+  label,
+  className,
+}) => {
   let width;
   let fontSize;
   if (size === "large") {
@@ -19,18 +28,24 @@ const Button = ({ size, icon, label }) => {
   const btnboxStyle = {
     width: width,
     fontSize: fontSize,
+    className: className,
+    gap: gap,
+    justifyContent: justifyContent,
+    paddingLeft: paddingLeft,
   };
 
   return (
-    <div className={style.btnbox} style={btnboxStyle}>
+    <div className={`${style.btnbox} ${className}`} style={btnboxStyle}>
+      <Icon ic={prefix} />
       <label>{label}</label>
-      <Icon ic={icon} />
+      <Icon ic={suffix} />
     </div>
   );
 };
 
-Button.propTypes = {
+ButtonComponent.propTypes = {
   size: PropTypes.oneOf(["small", "medium", "large"]),
+  className: PropTypes.string,
 };
 
-export default Button;
+export default ButtonComponent;

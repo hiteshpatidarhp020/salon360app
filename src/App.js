@@ -1,47 +1,81 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import Button from "./components/Button";
-import IcPlus from "./design-system/icons/IcPlus";
+import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  Container,
+  Row,
+  Col,
+  Navbar,
+  Image,
+  Button,
+  ListGroup,
+} from "react-bootstrap";
+import "./App.css";
 
 const App = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
+  const toggleSidebar = () => {
+    setShowSidebar(!showSidebar);
+  };
+  const closeSidebar = () => {
+    setShowSidebar(true);
+  };
   return (
     <div>
-      {/* Header */}
-      <header className="bg-dark text-white">
-        <div className="container d-flex justify-content-between align-items-center ">
-          <img src="your-logo.png" />
-          <div className="d-flex align-items-center">
-            <button className="btn btn-primary me-2">Button 1</button>
-            <button className="btn btn-secondary">Button 2</button>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Image src="your-logo.png" alt="Logo" />
+          <Navbar.Brand>
+            <Button onClick={toggleSidebar} className="d-md-none">
+              ☰
+            </Button>
+            <button>Click1</button>
+            <button>Click2</button>
             <img src="user-profile.png" className="me-2" />
-          </div>
-        </div>
-      </header>
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
 
-      {/* Main Content */}
-      <div className="container mt-4">
-        <div className="row">
-          {/* Left Side */}
-          <div className="col-md-8">
-            <ul className="list-group">
-              <li className="list-group-item">Item 1</li>
-              <li className="list-group-item">Item 2</li>
-              <li className="list-group-item">Item 3</li>
-              <li className="list-group-item">Item 4</li>
-              <li className="list-group-item">Item 5</li>
-            </ul>
-          </div>
+      {/*sadfsad */}
 
-          {/* Right Side (responsive ordering) */}
-          <div className="col-md-4 order-md-2 order-end">
-            <img
+      {/*      <Container className="mt-4 me-4  ">
+        <Row>
+          <Col md={6}>
+            <ListGroup>
+              <ListGroup.Item>Item 1</ListGroup.Item>
+              <ListGroup.Item>Item 2</ListGroup.Item>
+              <ListGroup.Item>Item 3</ListGroup.Item>
+              <ListGroup.Item>Item 4</ListGroup.Item>
+              <ListGroup.Item>Item 5</ListGroup.Item>
+            </ListGroup>
+          </Col>
+
+          <Col md={5} className="order-md-2 order-1">
+            <Image
               src="/images/Rectangle 7667.png"
               alt="Right Side Image"
-              className="img-fluid"
+              fluid
             />
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+  </Container>*/}
+
+      {/* Sidebar */}
+
+      {/*    <div className={`sidebar ${showSidebar ? "show" : ""}`}>
+        <ListGroup className="sidebar-items ">
+          {setShowSidebar && (
+            <Button onClick={closeSidebar} className="close-button d-md-none">
+              &times;sdaf
+            </Button>
+          )}
+          <ListGroup.Item>Item A</ListGroup.Item>
+          <ListGroup.Item>Item B</ListGroup.Item>
+          <ListGroup.Item>Item C</ListGroup.Item>
+          <ListGroup.Item>Item D</ListGroup.Item>
+          <ListGroup.Item>Item E</ListGroup.Item>
+        </ListGroup>
+          </div>*/}
     </div>
   );
 };

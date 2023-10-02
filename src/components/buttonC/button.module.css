@@ -15,3 +15,8 @@
   font-weight: 500;
   line-height: normal;
 }
+/*  */
+.sidebaritems {
+  background-color: blue;
+  width: auto;
+}
