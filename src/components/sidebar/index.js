@@ -13,10 +13,14 @@ import "./sidebar.css";
 import "../../App.css";
 import ButtonComponent from "../buttonC";
 import { Icon } from "../icon/icon";
+
+import { toHaveFormValues } from "@testing-library/jest-dom/matchers";
+import Refer from "../refer";
+import AccordionC from "../accordion";
 import Text from "../text";
 
 function SideBar() {
-  const [showSidebar, setShowSidebar] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(true);
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
@@ -156,6 +160,16 @@ function SideBar() {
                   </ListGroup>
                 </div>
               </Col>
+              <Refer />
+
+              <Text
+                color="#FFF"
+                appearance="heading_l_medium"
+                lineHeight="38.5px"
+                text="Frequently asked questions (FAQs)"
+                className="mb-4 mt-5"
+              />
+              <AccordionC />
             </Row>
           </div>
         </Col>

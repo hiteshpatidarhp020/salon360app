@@ -32,3 +32,6 @@
   border: none;
   color: white;
 }
+.accordion-header {
+  background-color: red !important;
+}

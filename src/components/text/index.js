@@ -80,11 +80,19 @@ const textStyles = {
 const StyledText = styled.div`
   ${(props) => textStyles[props.appearance]};
   color: ${(props) => props.color || "inherit"};
+  width: ${(props) => props.width || "100%"};
+  line-height: ${(props) => props.lineHeight || "28px"};
 `;
 
-const Text = ({ text, appearance, color, className }) => {
+const Text = ({ text, lineHeight, appearance, color, width, className }) => {
   return (
-    <StyledText className={className} appearance={appearance} color={color}>
+    <StyledText
+      className={className}
+      lineHeight={lineHeight}
+      width={width}
+      appearance={appearance}
+      color={color}
+    >
       {text}
     </StyledText>
   );

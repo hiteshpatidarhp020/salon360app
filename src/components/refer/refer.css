@@ -1,0 +1,57 @@
+.input-filed {
+  background-color: transparent !important;
+  border: none;
+  border-radius: 0;
+  padding: 0 !important;
+  color: #fff !important;
+}
+.input-filed::after {
+  color: #fff !important;
+}
+.form-floating {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.floatingInputlabel {
+  color: #fff !important;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  padding: 0 !important;
+}
+.floatingInputlabel::after {
+  background-color: transparent !important;
+  font-size: 6px !important;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+.interested-section {
+  border-radius: 10px;
+  padding: 54px !important;
+  background: #1a1e29;
+  color: white;
+}
+.refer-section {
+  color: #fff;
+  padding-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .interested-section {
+    border-radius: 10px;
+    padding: 54px !important;
+    background: #1a1e29;
+    color: white;
+  }
+  .iterested-heading {
+    width: 100% !important;
+  }
+  .interested-section {
+    margin-top: 30px;
+    padding: 34px !important;
+  }
+}
