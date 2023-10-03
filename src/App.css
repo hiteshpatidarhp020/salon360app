@@ -60,6 +60,10 @@
   .monthly-img-container {
     margin-bottom: 15px !important;
   }
+  .monthly-discription {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }
 
 .sidebar {
@@ -81,6 +85,8 @@
   background: #242834;
   box-shadow: 0px 9px 16px 0px #16161c;
   margin: 0 10px !important;
+}
+.appdetals-top {
   padding: 26px 26px 36px 26px;
 }
 .monthlyExpenses-section {
