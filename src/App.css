@@ -25,6 +25,11 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: DMSans-Italic;
+  src: url(/src//styles//DMSans_18pt-Bold.ttf),
+    url(/src/styles/DMSans-ThinItalic.ttf);
+}
 /* ///////////////// */
 
 @media (max-width: 767px) {
@@ -108,4 +113,9 @@
   color: #fff;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+/* test */
+.hites1 {
+  color: white !important;
+  font-family: DMSans-ThinItalic;
 }
