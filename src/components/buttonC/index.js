@@ -11,6 +11,7 @@ const ButtonComponent = ({
   suffix,
   label,
   className,
+  paddingRight,
 }) => {
   let width;
   let fontSize;
@@ -32,6 +33,7 @@ const ButtonComponent = ({
     gap: gap,
     justifyContent: justifyContent,
     paddingLeft: paddingLeft,
+    paddingRight: paddingRight,
   };
 
   return (

@@ -7,12 +7,11 @@ import IcAppoinment from "../../design-system/icons/IcAppoinment";
 import IcVectorrefferal from "../../design-system/icons/IcVectorrefferal";
 import Text from "../text";
 import { Icon } from "../icon/icon";
-import ImgBackground from "../img-background";
-import IcServices from "../../design-system/icons/IcServices";
+import IcServiceone from "../../design-system/icons/IcServicesone";
 import IcPackages from "../../design-system/icons/IcPackages";
 import IcPlans from "../../design-system/icons/IcPlans";
-import IcReports from "../../design-system/icons/IcReports";
 import IcCampaigns from "../../design-system/icons/IcCampaigns";
+import IcReports from "../../design-system/icons/IcReports";
 
 const Knowmore = () => {
   return (
@@ -28,8 +27,14 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
+              <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={<IcAppoinment />} />
+                </div>
+              </div>
+
               <Card.Title>
-                <ImgBackground icon={<IcAppoinment />} />
                 <Text
                   className="knowtext"
                   text="Appoinment"
@@ -43,7 +48,7 @@ const Knowmore = () => {
                   text="Allow customers to book appointments on channel, view
                 availability, and receive confirmation notifications."
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
@@ -53,9 +58,13 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              {/*<BackgroundIcon icon={<IcAppoinment />} />*/}
+            <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={<IcServiceone />} />
+                </div>
+              </div>
               <Card.Title className="bg-knowcard">
-                <ImgBackground icon={<IcServices />} />
                 <Text
                   className="knowtext"
                   text="Services"
@@ -69,7 +78,7 @@ const Knowmore = () => {
                   text="Create a catalogue for your clients covering a broad range of
                 services to choose from."
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
@@ -79,7 +88,12 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              <ImgBackground icon={<IcPackages />} />
+            <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={<IcPackages />} />
+                </div>
+              </div>
               <Card.Title>
                 <Text
                   className="knowtext"
@@ -94,7 +108,7 @@ const Knowmore = () => {
                   text="Create customized packages for your clients and run discount
                 offers to increase customer retention."
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
@@ -104,8 +118,13 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
+              <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={<IcCampaigns />} />
+                </div>
+              </div>
               <Card.Title>
-                <ImgBackground icon={<IcCampaigns />} />
                 <Text
                   className="knowtext"
                   text="Campaigns"
@@ -120,7 +139,7 @@ const Knowmore = () => {
                 messages to customers, as well as to track the effectiveness of
                 these campaigns."
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
@@ -130,8 +149,13 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
+              <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={< IcPlans/>} />
+                </div>
+              </div>
               <Card.Title>
-                <ImgBackground icon={<IcPlans />} />
                 <Text
                   className="knowtext"
                   text="Plans"
@@ -142,9 +166,9 @@ const Knowmore = () => {
               <Card.Text>
                 <Text
                   className="knowtext"
-                  text="Enrol into an annual subscription to leverage all the unlimited benefits for smooth functioning of your business"
+                  text="Track your key business metrics with detailed business reports. Get trend analysis of your best selling products & services"
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
@@ -154,8 +178,13 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
+              <div className="knowimage">
+                <Image src="/images/Ellipse 646.png" />
+                <div className="knowiconimage">
+                  <Icon ic={<IcReports />} />
+                </div>
+              </div>
               <Card.Title>
-                <ImgBackground icon={<IcReports />} />
                 <Text
                   className="knowtext"
                   text="Reports"
@@ -166,14 +195,17 @@ const Knowmore = () => {
               <Card.Text>
                 <Text
                   className="knowtext"
-                  text="Track your key business metrics with detailed business reports. Get trend analysis of your best selling products & services"
+                  text="Enroll in an annual subscription to leverage all the unlimited
+                benefits for the smooth functioning of your business."
                   appearance="body_s_regular"
-                  color="rgba(255, 255, 255, 0.7)"
+                  color="white"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
+
+        
       </Row>
     </Container>
   );
