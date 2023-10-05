@@ -1,9 +1,9 @@
-/**@jsxImportSource @emotion/react */
+// /**@jsxImportSource @emotion/react */
 import { Col, Row } from "react-bootstrap";
 
 import styles from "./about.css";
-import Container from "../container";
 import Text from "../text";
+import Container from "../container";
 
 const About = () => {
   return (
