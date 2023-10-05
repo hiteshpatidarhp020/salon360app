@@ -12,6 +12,8 @@ import IcPackages from "../../design-system/icons/IcPackages";
 import IcPlans from "../../design-system/icons/IcPlans";
 import IcCampaigns from "../../design-system/icons/IcCampaigns";
 import IcReports from "../../design-system/icons/IcReports";
+import ImgBackground from "../img-background";
+import IcServices from "../../design-system/icons/IcServices";
 
 const Knowmore = () => {
   return (
@@ -27,14 +29,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={<IcAppoinment />} />
-                </div>
-              </div>
-
               <Card.Title>
+                <ImgBackground icon={<IcAppoinment />} />
                 <Text
                   className="knowtext"
                   text="Appoinment"
@@ -58,13 +54,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-            <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={<IcServiceone />} />
-                </div>
-              </div>
               <Card.Title className="bg-knowcard">
+                <ImgBackground icon={<IcServices />} />
                 <Text
                   className="knowtext"
                   text="Services"
@@ -88,13 +79,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-            <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={<IcPackages />} />
-                </div>
-              </div>
               <Card.Title>
+                <ImgBackground icon={<IcPackages />} />
                 <Text
                   className="knowtext"
                   text="Packages"
@@ -118,13 +104,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={<IcCampaigns />} />
-                </div>
-              </div>
               <Card.Title>
+                <ImgBackground icon={<IcCampaigns />} />
                 <Text
                   className="knowtext"
                   text="Campaigns"
@@ -149,13 +130,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={< IcPlans/>} />
-                </div>
-              </div>
               <Card.Title>
+                <ImgBackground icon={<IcPlans />} />
                 <Text
                   className="knowtext"
                   text="Plans"
@@ -178,13 +154,8 @@ const Knowmore = () => {
         <Col lg={4} md={6} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
-              <div className="knowimage">
-                <Image src="/images/Ellipse 646.png" />
-                <div className="knowiconimage">
-                  <Icon ic={<IcReports />} />
-                </div>
-              </div>
               <Card.Title>
+                <ImgBackground icon={<IcReports />} />
                 <Text
                   className="knowtext"
                   text="Reports"
@@ -204,8 +175,6 @@ const Knowmore = () => {
             </Card.Body>
           </Card>
         </Col>
-
-        
       </Row>
     </Container>
   );

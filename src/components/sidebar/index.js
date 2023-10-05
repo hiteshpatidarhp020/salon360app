@@ -12,7 +12,7 @@ import {
 } from "react-bootstrap";
 import "./sidebar.css";
 import "../../App.css";
-import ButtonComponent from "../app-button";
+
 import { Icon } from "../icon/icon";
 
 import Refer from "../refer";
@@ -30,8 +30,9 @@ import IcParlour from "../../design-system/icons/IcParlour";
 import About from "../about";
 import Knowmore from "../knowmore";
 import BannerSection from "../bannerSection";
+import AppButton from "../app-button";
 
-const SideBar=()=> {
+const SideBar = () => {
   const [showSidebar, setShowSidebar] = useState(true);
 
   const toggleSidebar = () => {
@@ -99,11 +100,11 @@ const SideBar=()=> {
                   <div className="m-0 ">Settings</div>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
-                  <Icon ic={<IcVectorrefferal />} />{" "}
+                  <Icon ic={<IcVectorrefferal />} />
                   <div className="m-0 ">Referrel</div>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
-                  <ButtonComponent
+                  <AppButton
                     size="medium"
                     label="App Details"
                     prefix={<IcPlus />}
@@ -126,10 +127,9 @@ const SideBar=()=> {
 
           <div className="app-details-section">
             <div className="appdetals-top">
-            <BannerSection />
-            <br/>
+              <BannerSection />
+              <br />
               <Row className="m-0 p-0 align-items-center mb-5 ">
-            
                 <About />
 
                 <Col sm={7} className="m-0">
@@ -140,7 +140,7 @@ const SideBar=()=> {
                         appearance="heading_m_medium"
                         color="white"
                       />
-                      <br/>
+                      <br />
                       <Text
                         text="Track your monthly expenses, including utilities,
                       salaries, and supplies. Stay on top of finances and make
@@ -161,7 +161,7 @@ const SideBar=()=> {
                         className="mb-4  monthly-discription"
                       />
 
-                      <ButtonComponent
+                      <AppButton
                         label="Know More"
                         size="medium"
                         className="monthly-img-container "
@@ -198,7 +198,7 @@ const SideBar=()=> {
                         appearance="heading_m_medium"
                         color="white"
                       />
-                      <br/>
+                      <br />
                       <Text
                         text="Manage your employee information, including their
                       salaries, commissions, and employment status. Also track
@@ -211,7 +211,7 @@ const SideBar=()=> {
                         className="mb-4 monthly-discription"
                       />
 
-                      <ButtonComponent label="Know More" size="medium" />
+                      <AppButton label="Know More" size="medium" />
                     </ListGroup>
                   </div>
                 </Col>
@@ -235,6 +235,6 @@ const SideBar=()=> {
       </Row>
     </div>
   );
-}
+};
 
 export default SideBar;

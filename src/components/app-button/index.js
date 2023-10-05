@@ -2,7 +2,7 @@ import { Icon } from "../icon/icon";
 import style from "./button.module.css";
 import PropTypes from "prop-types";
 
-const ButtonComponent = ({
+const AppButton = ({
   size,
   paddingLeft,
   gap,
@@ -45,9 +45,9 @@ const ButtonComponent = ({
   );
 };
 
-ButtonComponent.propTypes = {
+AppButton.propTypes = {
   size: PropTypes.oneOf(["small", "medium", "large"]),
   className: PropTypes.string,
 };
 
-export default ButtonComponent;
+export default AppButton;
