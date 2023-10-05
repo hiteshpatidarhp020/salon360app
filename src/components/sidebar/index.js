@@ -137,7 +137,7 @@ function SideBar() {
           </div>
         </Col>
         <Col md={10} className=" m-0 mt-5  pt-2">
-          <h1 className="hp">team work</h1>
+          <h1 className="hp">team work new</h1>
           <Text
             className="mb-4 mt-4 pt-3   ms-1 ps-2"
             appearance="heading_s_medium"
