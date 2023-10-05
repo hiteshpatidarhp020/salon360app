@@ -1,5 +1,5 @@
 import { Col, FloatingLabel, Form, Row } from "react-bootstrap";
-import ButtonComponent from "../buttonC";
+import ButtonComponent from "../app-button";
 import "./refer.css";
 import Text from "../text";
 
