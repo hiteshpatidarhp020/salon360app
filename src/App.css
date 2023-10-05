@@ -26,9 +26,8 @@
   }
 }
 @font-face {
-  font-family: DMSans-Italic;
-  src: url(/src//styles//DMSans_18pt-Bold.ttf),
-    url(/src/styles/DMSans-ThinItalic.ttf);
+  font-family: DM sans;
+  src: url(/src//styles/DMSans-VariableFont_opsz\,wght.ttf);
 }
 /* ///////////////// */
 
@@ -115,7 +114,7 @@
   margin-left: 10px;
 }
 /* test */
-.hites1 {
-  color: white !important;
-  font-family: DMSans-ThinItalic;
+.hp {
+  font-family: DM sans;
+  color: white;
 }
