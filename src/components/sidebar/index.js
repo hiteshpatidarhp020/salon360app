@@ -101,7 +101,7 @@ const SideBar=()=> {
                   <Icon ic={<IcVectorpayment />} />{" "}
                   <Text
                   className="knowtext"
-                  text="Payment Modes"
+                  text="Payment Modes "
                   appearance="body_m_regular"
                   color="white"
                 />

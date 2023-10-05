@@ -11,7 +11,7 @@ const BannerSection = () =>{
         <>
             <Row className="m-0 bannermainrow">
                     <Col md={6}>
-                       <Image fluid src="/images/Group 28785.png"/>
+                       <Image fluid src="/images/bannerimage.png"/>
                    </Col>
                     <Col md={6} className="listcolumn">
                     <div className=" row d-flex listcontent">
