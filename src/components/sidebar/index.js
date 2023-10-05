@@ -29,8 +29,9 @@ import IcVectorsettings from "../../design-system/icons/IcVectorsettings";
 import IcParlour from "../../design-system/icons/IcParlour";
 import About from "../about";
 import Knowmore from "../knowmore";
+import BannerSection from "../bannerSection";
 
-function SideBar() {
+const SideBar=()=> {
   const [showSidebar, setShowSidebar] = useState(true);
 
   const toggleSidebar = () => {
@@ -48,27 +49,6 @@ function SideBar() {
             <Button onClick={toggleSidebar} className="d-md-none">
               ☰
             </Button>
-            <ButtonComponent label="New Sale" suffix={<IcPlus />} />
-            <Dropdown className=" mx-4 my-3" data-bs-theme="dark">
-              <Dropdown.Toggle
-                id="dropdown-button-dark-example1"
-                variant="secondary"
-              >
-                Trinity Saloon, Kharadi
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1" active>
-                  Action
-                </Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Divider />
-
-                <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-            <div className="imageicon">
-              <p className="icontext">KB</p>
-            </div>
           </Navbar.Brand>
         </Container>
       </Navbar>
@@ -137,17 +117,21 @@ function SideBar() {
           </div>
         </Col>
         <Col md={10} className=" m-0 mt-5  pt-2">
-          <h1 className="hp">team work new</h1>
           <Text
             className="mb-4 mt-4 pt-3   ms-1 ps-2"
             appearance="heading_s_medium"
             color="#FFF"
             text="App Details"
           />
+
           <div className="app-details-section">
             <div className="appdetals-top">
+            <BannerSection />
+            <br/>
               <Row className="m-0 p-0 align-items-center mb-5 ">
+            
                 <About />
+
                 <Col sm={7} className="m-0">
                   <div className="">
                     <ListGroup className="monthlyExpenses-section">
@@ -156,6 +140,7 @@ function SideBar() {
                         appearance="heading_m_medium"
                         color="white"
                       />
+                      <br/>
                       <Text
                         text="Track your monthly expenses, including utilities,
                       salaries, and supplies. Stay on top of finances and make
@@ -199,7 +184,7 @@ function SideBar() {
                 <Col sm={5} className="m-0 monthly-img-container">
                   <div className="">
                     <Image
-                      src="/images/Rectangle 7667.png"
+                      src="/images/Rectangle 7668.png"
                       alt="Right Side Image"
                       fluid
                     />
@@ -213,6 +198,7 @@ function SideBar() {
                         appearance="heading_m_medium"
                         color="white"
                       />
+                      <br/>
                       <Text
                         text="Manage your employee information, including their
                       salaries, commissions, and employment status. Also track

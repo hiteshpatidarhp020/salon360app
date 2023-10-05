@@ -1,0 +1,42 @@
+.bannerfirstcontainer{
+    position: relative; 
+    width: 100%;
+}
+.bannersecondcontainer{
+    position: absolute;
+    top: 0;
+}
+.listcolumn{
+    max-width: fit-content;
+}
+.listgroup{
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.bannerlist{
+    margin-bottom: 100px;
+}
+.listicon{
+    padding-left: 20px;
+}
+.bannermainrow{
+    border-radius: 6px;
+    background-color: blueviolet; 
+  }
+  .listcontent{
+    margin-bottom: 30px;
+  }
+  .listcontentone{
+    max-width:fit-content ;
+  }
+  .listcontenttwo{
+    max-width:fit-content ;
+  }
+  .listcoltext{
+    display: flex;
+    gap: 10px;
+  }
+  .bannerbutton{
+    max-width: fit-content;
+  }
+  
