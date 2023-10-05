@@ -12,7 +12,7 @@ import {
 } from "react-bootstrap";
 import "./sidebar.css";
 import "../../App.css";
-import ButtonComponent from "../buttonC";
+import ButtonComponent from "../app-button";
 import { Icon } from "../icon/icon";
 
 import Refer from "../refer";
