@@ -13,7 +13,7 @@ const About = () => {
           <Col md={4} className={styles.abouttext}>
             <Text
               className={styles.abouttext}
-              text="AboutUs"
+              text="About"
               appearance="heading_l_medium"
               color="white"
             />

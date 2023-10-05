@@ -72,35 +72,75 @@ const SideBar=()=> {
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectordash />} />{" "}
-                  <div className="m-0 ">Dashboard </div>
+                  <Text
+                  className="knowtext"
+                  text="Dashboard"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorreport />} />{" "}
-                  <div className="m-0 ">Report</div>
+                  <Text
+                  className="knowtext"
+                  text="Report"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorservice />} />{" "}
-                  <div className="m-0 ">Service </div>
+                  <Text
+                  className="knowtext"
+                  text="Service"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorpayment />} />{" "}
-                  <div className="m-0 ">Payment Modes</div>
+                  <Text
+                  className="knowtext"
+                  text="Payment Modes"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorstaff />} />{" "}
-                  <div className="m-0 ">My Staff</div>
+                  <Text
+                  className="knowtext"
+                  text="My Staff"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorstore />} />{" "}
-                  <div className="m-0 ">My Store</div>
+                  <Text
+                  className="knowtext"
+                  text="My Store"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorsettings />} />{" "}
-                  <div className="m-0 ">Settings</div>
+                  <Text
+                  className="knowtext"
+                  text="Settings"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <Icon ic={<IcVectorrefferal />} />{" "}
-                  <div className="m-0 ">Referrel</div>
+                  <Text
+                  className="knowtext"
+                  text="Referrel"
+                  appearance="body_m_regular"
+                  color="white"
+                />
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex  sidebar-item">
                   <ButtonComponent
