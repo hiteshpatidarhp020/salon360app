@@ -10,16 +10,16 @@ import AppButton from "../app-button";
 const BannerSection = () => {
   return (
     <>
-      <Row className="m-0 bannermainrow">
-        <Col md={6}>
-          <Image fluid src="/images/Group 28785.png" />
+      <Row className="m-0 mb-5 bannermainrow">
+        <Col lg={5}>
+          <Image fluid src="/images/banner.png" />
         </Col>
-        <Col md={6} className="listcolumn">
-          <div className=" row d-flex listcontent">
-            <div className=" col-sm listcontentone">
+        <Col lg={7} className="listcolumn">
+          <Row className=" m-0    listcontent">
+            <Col md={12} lg={6} className=" m-0 listcontentone">
               <ListGroup.Item className="listgroup">
                 <div className="listcoltext">
-                  <Icon className="listicon" ic={<IcBannersmicon />} />
+                  <Icon ic={<IcBannersmicon />} />
                   <Text
                     text="Store & Staff Management"
                     appearance="body_m_regular"
@@ -51,11 +51,11 @@ const BannerSection = () => {
                   />
                 </div>
               </ListGroup.Item>
-            </div>
-            <div className="listcontenttwo">
+            </Col>
+            <Col md={12} lg={6} className="listcontenttwo">
               <ListGroup.Item className=" listgroup ">
                 <div className="col-sm listcoltext">
-                  <Icon className="listicon" ic={<IcBannersmicon />} />
+                  <Icon ic={<IcBannersmicon />} />
                   <Text
                     text="Commission Tracking"
                     appearance="body_m_regular"
@@ -87,15 +87,15 @@ const BannerSection = () => {
                   />
                 </div>
               </ListGroup.Item>
-            </div>
-          </div>
-          <AppButton
-            className="bannerbutton"
-            size="medium"
-            paddingLeft="15px"
-            paddingRight="15px"
-            label="Get in touch with us"
-          />
+            </Col>
+            <AppButton
+              className="bannerbutton mb-4 mt-4 ms-3"
+              size="medium"
+              paddingLeft="15px"
+              paddingRight="15px"
+              label="Get in touch with us"
+            />
+          </Row>
         </Col>
       </Row>
     </>

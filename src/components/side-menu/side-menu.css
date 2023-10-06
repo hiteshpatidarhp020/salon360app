@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* width: 16.5%; */
+  height: 100%;
+  background: #2c303f;
+  z-index: 999;
+  color: #fff;
+}
+
+.sidebar-item {
+  gap: 17px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.close-button {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  border: none;
+  background-color: transparent;
+}

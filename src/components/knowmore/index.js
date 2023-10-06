@@ -26,7 +26,7 @@ const Knowmore = () => {
         width="320px"
       />
       <Row className="knowboxes">
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title>
@@ -44,14 +44,14 @@ const Knowmore = () => {
                   text="Allow customers to book appointments on channel, view
                 availability, and receive confirmation notifications."
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title className="bg-knowcard">
@@ -69,14 +69,14 @@ const Knowmore = () => {
                   text="Create a catalogue for your clients covering a broad range of
                 services to choose from."
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title>
@@ -94,14 +94,14 @@ const Knowmore = () => {
                   text="Create customized packages for your clients and run discount
                 offers to increase customer retention."
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title>
@@ -120,14 +120,14 @@ const Knowmore = () => {
                 messages to customers, as well as to track the effectiveness of
                 these campaigns."
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title>
@@ -144,14 +144,14 @@ const Knowmore = () => {
                   className="knowtext"
                   text="Track your key business metrics with detailed business reports. Get trend analysis of your best selling products & services"
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col lg={4} md={6} className="mb-4">
+        <Col lg={4} md={12} className="mb-4">
           <Card className="knowcard">
             <Card.Body className="knowboxes">
               <Card.Title>
@@ -169,7 +169,7 @@ const Knowmore = () => {
                   text="Enroll in an annual subscription to leverage all the unlimited
                 benefits for the smooth functioning of your business."
                   appearance="body_s_regular"
-                  color="white"
+                  color="rgba(255, 255, 255, 0.7)"
                 />
               </Card.Text>
             </Card.Body>

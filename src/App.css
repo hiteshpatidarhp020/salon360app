@@ -27,8 +27,20 @@
 }
 @font-face {
   font-family: DM sans;
-  src: url(/src//styles/DMSans-Bold.ttf);
+  src: url(/src//styles/font/DMSans-Regular.ttf);
+  font-weight: 400;
 }
+@font-face {
+  font-family: DM sans;
+  src: url(/src/styles/font/DMSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: DM sans;
+  src: url(/src/styles/font/DMSans-Bold.ttf);
+  font-weight: 700;
+}
+
 /* ///////////////// */
 
 @media (max-width: 767px) {
@@ -68,53 +80,58 @@
     width: 100% !important;
     margin-left: 0 !important;
   }
+  .appdetals-top {
+    padding: 26px 25px 36px 25px !important;
+  }
+  .knowmaincontainer {
+    padding: 64px 25px !important;
+  }
+  .parlour-items {
+    margin-top: 50px !important;
+  }
+  .app-header {
+    background: #242834;
+  }
+  .parlouricon {
+    display: flex !important;
+  }
+  .interested-section {
+    border-radius: 10px;
+    padding: 54px !important;
+    background: #1a1e29;
+    color: white;
+  }
+  .iterested-heading {
+    width: 100% !important;
+  }
+  .interested-section {
+    margin-top: 30px;
+    padding: 34px !important;
+  }
+  .refer-section {
+    padding-right: 0px !important;
+  }
+  .knowboxes {
+    padding-right: 0 !important;
+  }
 }
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  /* left: 0; */
-  width: 16.5%;
-  height: 100%;
-  background: #2c303f;
-  z-index: 999;
-  color: #fff;
-}
-
-.monthlyExpenses-section p {
-  width: 441px;
-}
-.app-details-section {
-  border-radius: 10px;
-  background: #242834;
-  box-shadow: 0px 9px 16px 0px #16161c;
-  margin: 0 10px !important;
-}
-.appdetals-top {
-  padding: 26px 26px 36px 26px;
-}
-.monthlyExpenses-section {
-  color: white;
-}
-.app-main {
-  background: #191921;
-}
-.app-header {
-  position: fixed;
-  width: 100%;
-  background: #242834;
-}
-
-.sidebar-item {
-  gap: 17px;
-  border: none;
-  background-color: transparent;
-  color: #fff;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-/* test */
-.hp {
-  font-family: DM sans;
-  color: white;
+@media (max-width: 1000px) {
+  .monthly-img-container {
+    margin-bottom: 30px !important;
+  }
+  .monthly-discription {
+    width: 100% !important;
+  }
+  .knowboxes {
+    padding-right: 0 !important;
+  }
+  .refer-section {
+    padding-right: 0px !important;
+  }
+  .interested-section {
+    padding: 25px !important;
+  }
+  .listcontent {
+    /* background-color: red; */
+  }
 }

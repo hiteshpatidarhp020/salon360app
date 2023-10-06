@@ -1,0 +1,25 @@
+.app-header {
+  padding: 10px 10px 10px 0 !important;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  /* background: #242834; */
+}
+
+.maincontainer {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.hamicon {
+  border: none;
+  border-radius: 6px;
+  background: var(
+    --Gradient-1,
+    linear-gradient(219deg, #6c5dd2 5.44%, #3f2fab 77.63%, #231292 123.54%)
+  );
+}
+.parlouricon {
+  display: none;
+}

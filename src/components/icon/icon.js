@@ -1,5 +1,5 @@
 import React from "react";
-export const Icon = ({ ic }) => {
-  return <div>{ic}</div>;
+export const Icon = ({ ic, className }) => {
+  return <div className={className}>{ic}</div>;
 };
 export default React;

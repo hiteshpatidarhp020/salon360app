@@ -7,6 +7,13 @@ import { Component } from "react";
 const AccordionC = () => {
   return (
     <div>
+      <Text
+        color="#FFF"
+        appearance="heading_l_medium"
+        lineHeight="38.5px"
+        text="Frequently asked questions (FAQs)"
+        className="mb-4 mt-5"
+      />
       <Accordion defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>

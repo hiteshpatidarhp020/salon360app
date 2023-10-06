@@ -3,7 +3,7 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  padding: 64px 44px;
+  padding: 64px 40px;
 }
 .knowmaincontainer Text {
   color: white;
@@ -31,10 +31,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position:relative;
-  top:0;
+  position: relative;
+  top: 0;
 }
-.knowiconimage{
-  
+.knowiconimage {
   position: relative;
 }

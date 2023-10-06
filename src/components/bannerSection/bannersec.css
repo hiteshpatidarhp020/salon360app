@@ -1,42 +1,45 @@
-.bannerfirstcontainer{
-    position: relative; 
-    width: 100%;
+.bannerfirstcontainer {
+  position: relative;
+  width: 100%;
 }
-.bannersecondcontainer{
-    position: absolute;
-    top: 0;
+.bannersecondcontainer {
+  position: absolute;
+  top: 0;
 }
-.listcolumn{
-    max-width: fit-content;
+.listcolumn {
+  /* max-width: fit-content; */
 }
-.listgroup{
-    margin-top: 80px;
-    margin-right: 10px;
+.listgroup {
+  margin-top: 80px;
+  margin-right: 10px;
 }
-.bannerlist{
-    margin-bottom: 100px;
+.bannerlist {
+  margin-bottom: 100px;
 }
-.listicon{
-    padding-left: 20px;
+.listicon {
+  padding-left: 20px;
 }
-.bannermainrow{
-    border-radius: 6px;
-    background-color: blueviolet; 
-  }
-  .listcontent{
-    margin-bottom: 30px;
-  }
-  .listcontentone{
-    max-width:fit-content ;
-  }
-  .listcontenttwo{
-    max-width:fit-content ;
-  }
-  .listcoltext{
-    display: flex;
-    gap: 10px;
-  }
-  .bannerbutton{
-    max-width: fit-content;
-  }
-  
+.bannermainrow {
+  border-radius: 6px;
+  background: var(
+    --Gradient-1,
+    linear-gradient(219deg, #6c5dd2 5.44%, #3f2fab 77.63%, #231292 123.54%)
+  );
+}
+.listcontent {
+  margin-bottom: 30px;
+}
+.listcontentone {
+  max-width: fit-content;
+}
+.listcontenttwo {
+  max-width: fit-content;
+}
+.listcoltext {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.bannerbutton {
+  max-width: fit-content;
+}

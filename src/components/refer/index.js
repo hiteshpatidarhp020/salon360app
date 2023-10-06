@@ -1,4 +1,4 @@
-import { Col, FloatingLabel, Form, Row } from "react-bootstrap";
+import { Col, FloatingLabel, Form, Image, Row } from "react-bootstrap";
 import ButtonComponent from "../app-button";
 import "./refer.css";
 import Text from "../text";
@@ -6,34 +6,41 @@ import Text from "../text";
 const Refer = () => {
   return (
     <Row className="m-0 mt-5 align-items-center">
-      <Col md={6} className="p-0  ">
+      <Col lg={6} className="p-0  ">
         <div className="refer-section">
           <h5>Refer your Salon Business Partners</h5>
-          <p>
-            Whether you are a small independent salon or a large spa chain, our
+          <Text
+            appearance="body_s_regular"
+            color="rgba(255, 255, 255, 0.7)"
+            className="mb-3"
+            text=" Whether you are a small independent salon or a large spa chain, our
             salon management app can help you achieve your business goals by
             streamlining your operations, improving your customer engagement,
-            and increasing your profitability.
-          </p>
-          <p>
+            and increasing your profitability."
+          />
+          <Text
+            appearance="body_s_regular"
+            color="rgba(255, 255, 255, 0.7)"
+            text=" 
             Thank you for considering our software, and we look forward to
-            helping you grow your business.
-          </p>
+            helping you grow your business."
+            className="scan-text-section"
+          />
 
-          <Row>
-            <Col>
+          <div className="scan-section">
+            <div>
               <Text
                 text="Scan QR to download App!"
-                width="150px"
+                width="170px"
                 appearance="heading_m_medium"
                 className="iterested-heading"
               />
-            </Col>
-            <Col className="text-md-end">col2</Col>
-          </Row>
+            </div>
+            <Image src="/images/scan.png" />
+          </div>
         </div>
       </Col>
-      <Col md={6} className="p-0 interested-section">
+      <Col lg={6} className="interested-section">
         <Text
           text="Know anyone who might be interested?"
           width="250px"

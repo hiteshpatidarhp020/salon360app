@@ -7,24 +7,19 @@ import Container from "../container";
 
 const About = () => {
   return (
-    <div className="mb-5">
+    <div className="mb-5 p-0">
       <Container background="rgba(36, 40, 52, 1)" inline={true}>
         <Row className={styles.aboutsectionmain}>
-          <Col md={4} className={styles.abouttext}>
+          <Col lg={4} className={styles.abouttext}>
             <Text
-              className={styles.abouttext}
-              text="AboutUs"
+              className="mb-3"
+              text="About Us"
               appearance="heading_l_medium"
               color="white"
-            />
-            <Text
-              className={styles.abouttext}
-              text="Us"
-              appearance="heading_l_medium"
-              color="white"
+              width="100px"
             />
           </Col>
-          <Col md={8} className={styles.aboutdescription}>
+          <Col lg={8} className={styles.aboutdescription}>
             <Text
               text="Our ParlorWorks App is designed specifically for hair, nail, and beauty salons, spas, and health and wellness centers. It is a cloud-based software that specializes in customer engagement and retention, allowing businesses to manage important aspects including appointment scheduling, client data management, inventory management, payment processing, and client marketing.
             ."

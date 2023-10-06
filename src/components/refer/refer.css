@@ -31,7 +31,7 @@
 
 .interested-section {
   border-radius: 10px;
-  padding: 54px !important;
+  padding: 48px;
   background: #1a1e29;
   color: white;
 }
@@ -39,19 +39,14 @@
   color: #fff;
   padding-right: 30px;
 }
-
-@media (max-width: 767px) {
-  .interested-section {
-    border-radius: 10px;
-    padding: 54px !important;
-    background: #1a1e29;
-    color: white;
-  }
-  .iterested-heading {
-    width: 100% !important;
-  }
-  .interested-section {
-    margin-top: 30px;
-    padding: 34px !important;
-  }
+.scan-section {
+  gap: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.scan-text-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
