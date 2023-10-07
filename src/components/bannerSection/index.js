@@ -4,7 +4,7 @@ import "../bannerSection/bannersec.css";
 import Text from "../text";
 import { Icon } from "../icon/icon";
 import IcBannersmicon from "../../design-system/icons/IcBannersmicon";
-import ButtonComponent from "../buttonC";
+import ButtonComponent from "../app-button"
 
 const BannerSection = () =>{
     return(
@@ -76,8 +76,8 @@ const BannerSection = () =>{
                         appearance="body_m_regular"
                         color="#fff"
                       />
-                      
                       </div>
+                      
                       <div className="listcoltext">
                     <Icon ic={<IcBannersmicon />}/>
                       <Text
