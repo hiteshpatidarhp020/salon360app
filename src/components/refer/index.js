@@ -55,7 +55,7 @@ const Refer = () => {
               id="floatingInput"
               placeholder="name@example.com"
             />
-            <label for="floatingInput" className="floatingInputlabel">
+            <label for="floatingInput" className="loatingInputlabelf">
               Enter name
             </label>
           </div>

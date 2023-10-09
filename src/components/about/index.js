@@ -12,8 +12,19 @@ const About = () => {
         <Row className={styles.aboutsectionmain}>
           <Col lg={4} className={styles.abouttext}>
             <Text
+<<<<<<< HEAD
               className="mb-3"
               text="About Us"
+=======
+              className={styles.abouttext}
+              text="About"
+              appearance="heading_l_medium"
+              color="white"
+            />
+            <Text
+              className={styles.abouttext}
+              text="Us"
+>>>>>>> appv1
               appearance="heading_l_medium"
               color="white"
               width="100px"
