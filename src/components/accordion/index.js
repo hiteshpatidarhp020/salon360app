@@ -120,6 +120,13 @@ const AccordionC = () => {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
+      <div className="viewlink">
+        <a href="url" ><Text
+              appearance="body_l_regular"
+              text="View More"
+              color="#ccaa6d"
+            /></a>
+      </div>
     </div>
   );
 };
