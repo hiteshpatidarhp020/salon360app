@@ -12,8 +12,9 @@ import IcPackages from "../../design-system/icons/IcPackages";
 import IcPlans from "../../design-system/icons/IcPlans";
 import IcCampaigns from "../../design-system/icons/IcCampaigns";
 import IcReports from "../../design-system/icons/IcReports";
-import ImgBackground from "../img-background";
+
 import IcServices from "../../design-system/icons/IcServices";
+import ImgBackground from "../img-background";
 
 const Knowmore = () => {
   return (

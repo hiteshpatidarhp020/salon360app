@@ -33,15 +33,14 @@
   padding-left: 14px;
 }
 /* link view more */
-.viewlink{
+.viewlink {
   display: flex;
   justify-content: end;
   padding-top: 10px;
-  }
-.viewlink a{
-  pointer-events: none;
-  color:#ccaa6d;
- /* border: none; */
- /* outline: none; */
 }
-
+.viewlink a {
+  pointer-events: none;
+  color: #ccaa6d;
+  /* border: none; */
+  /* outline: none; */
+}
